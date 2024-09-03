@@ -5,8 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/feedback/FeedbackCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/feedback/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/book-social-network.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +69,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BookNetworkApiApplication.executor": "Run",
-    "Maven.book-network [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/vatsal/IJ code/book-social-network",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BookNetworkApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.book-network [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/vatsal/IJ code/book-social-network&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.project.book.feedback" />
@@ -59,6 +87,10 @@
       <recent name="com.project.book.exception" />
       <recent name="com.project.book.book" />
       <recent name="com.project.book.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vatsal\IJ code\book-social-network-github\book-social-network\book-network" />
+      <recent name="D:\vatsal\IJ code\book-social-network-github\book-social-network" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,6 +142,9 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/book-network" />
+    </ignored-roots>
     <MESSAGE value="Implemented AuditAware, Book Entity, Feedback, BookTransactionHistory and Book api's like (save, findById)" />
     <MESSAGE value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
