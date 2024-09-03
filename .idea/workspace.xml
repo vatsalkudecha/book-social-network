@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/feedback/FeedbackCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/feedback/FeedbackController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/6.3.1/spring-security-config-6.3.1.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/6.3.1/spring-security-core-6.3.1.jar!/org/springframework/security/core/userdetails/UserDetailsService.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jkehLIcas3bcb4mm25o407kY1R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookNetworkApiApplication.executor": "Run",
+    "Maven.book-network [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/vatsal/IJ code/book-social-network",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.project.book.feedback" />
+      <recent name="com.project.book.file" />
+      <recent name="com.project.book.exception" />
+      <recent name="com.project.book.book" />
+      <recent name="com.project.book.common" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookNetworkApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.book.BookNetworkApiApplication" />
+      <module name="book-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookNetworkApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="" />
+      <created>1721935620088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721935620088</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Implemented AuditAware, Book Entity, Feedback, BookTransactionHistory and Book api's like (save, findById)">
+      <option name="closed" value="true" />
+      <created>1725302527695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725302527695</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging">
+      <option name="closed" value="true" />
+      <created>1725372570389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725372570389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented AuditAware, Book Entity, Feedback, BookTransactionHistory and Book api's like (save, findById)" />
+    <MESSAGE value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
+  </component>
+</project>
