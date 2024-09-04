@@ -4,36 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging">
-      <change afterPath="$PROJECT_DIR$/.idea/book-social-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="OpenApiConfig added">
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/api-configuration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/api.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/base-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/authenticate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/confirm-account.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/register.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/approve-return-borrowed-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/borrow-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books-by-owner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-borrowed-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-returned-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-by-book-id.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/return-borrowed-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/save-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-archived-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-shareable-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/upload-book-cover-picture.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/find-all-feedbacks-by-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/save-feedback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/borrowed-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-borrowed-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/registration-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/request-builder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/book.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/feedback.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/strict-http-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/openapi/openapi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,22 +90,25 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2jkehLIcas3bcb4mm25o407kY1R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookNetworkApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.book-network [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/vatsal/IJ code/book-social-network&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BookNetworkApiApplication.executor": "Run",
+    "Maven.book-network [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/vatsal/IJ code/book-social-network",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.project.book.feedback" />
@@ -89,6 +118,7 @@
       <recent name="com.project.book.common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vatsal\IJ code\book-social-network-github\book-social-network\book-network-ui\src" />
       <recent name="D:\vatsal\IJ code\book-social-network-github\book-social-network\book-network" />
       <recent name="D:\vatsal\IJ code\book-social-network-github\book-social-network" />
     </key>
@@ -138,15 +168,34 @@
       <option name="project" value="LOCAL" />
       <updated>1725372570389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setup front-end">
+      <option name="closed" value="true" />
+      <created>1725377430854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725377430854</updated>
+    </task>
+    <task id="LOCAL-00004" summary="OpenApiConfig added">
+      <option name="closed" value="true" />
+      <created>1725377750937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725377750937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/book-network" />
     </ignored-roots>
     <MESSAGE value="Implemented AuditAware, Book Entity, Feedback, BookTransactionHistory and Book api's like (save, findById)" />
     <MESSAGE value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
+    <MESSAGE value="Setup front-end" />
+    <MESSAGE value="OpenApiConfig added" />
+    <option name="LAST_COMMIT_MESSAGE" value="OpenApiConfig added" />
   </component>
 </project>
