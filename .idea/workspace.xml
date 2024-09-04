@@ -4,62 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="OpenApiConfig added">
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/api-configuration.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/api.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/base-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/authenticate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/confirm-account.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/register.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/approve-return-borrowed-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/borrow-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books-by-owner.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-borrowed-books.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-returned-books.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-by-book-id.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/return-borrowed-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/save-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-archived-status.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-shareable-status.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/upload-book-cover-picture.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/find-all-feedbacks-by-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/save-feedback.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/borrowed-book-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-book-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-borrowed-book-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-feedback-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/models/registration-request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/request-builder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/authentication.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/book.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/services/feedback.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/services/strict-http-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/openapi/openapi.json" afterDir="false" />
+    <list default="true" id="6e11e34c-4d25-4d02-8cb5-516a24cdf295" name="Changes" comment="Generate http services using OpenApi">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/config/BeansConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/handler/BusinessErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/project/book/handler/BusinessErrorCodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/vatsal/IJ code/book-social-network",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -184,8 +141,19 @@
       <option name="project" value="LOCAL" />
       <updated>1725377750937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Generate http services using OpenApi">
+      <option name="closed" value="true" />
+      <created>1725453291205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725453291205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -196,6 +164,7 @@
     <MESSAGE value="Implemented findAllBooks, findAllBooksByOwner, findAllBorrowedBooks, findAllReturnedBooks, updateShareableStatus, updateArchivedStatus, borrowBook, returnBorrowedBook, approveReturnBorrowedBook, uploadBookCoverPicture and saveFeedback, findAllFeedbacksByBook APIS with Paging" />
     <MESSAGE value="Setup front-end" />
     <MESSAGE value="OpenApiConfig added" />
-    <option name="LAST_COMMIT_MESSAGE" value="OpenApiConfig added" />
+    <MESSAGE value="Generate http services using OpenApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generate http services using OpenApi" />
   </component>
 </project>
