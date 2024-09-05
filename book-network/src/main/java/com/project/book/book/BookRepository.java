@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-@Repository
 public interface BookRepository extends JpaRepository<Book, Integer>, JpaSpecificationExecutor<Book> {
 
     @Query("""
@@ -17,5 +16,5 @@ public interface BookRepository extends JpaRepository<Book, Integer>, JpaSpecifi
             AND book.shareable = true
             AND book.owner.id != :userId
             """)
-    Page<Book> findAllDisplableBooks(Pageable pageable, Integer userId);
+    Page<Book> findAllDisplayableBooks(Pageable pageable, Integer userId);
 }

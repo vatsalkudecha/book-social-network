@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("feedbacks")
 @RequiredArgsConstructor
 @Tag(name = "Feedback")
-public class FeedbackCotroller {
+public class FeedbackController {
 
     private final FeedbackService feedbackService;
 
