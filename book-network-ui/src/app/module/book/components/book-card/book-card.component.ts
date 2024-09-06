@@ -25,7 +25,7 @@ export class BookCardComponent {
     if (this._book.cover) {
       return 'data:image/jpg;base64,' + this._book.cover;
     }
-    return 'https://source.unsplash.com/user/c_v_r/1900x800';
+    return 'https://api.unsplash.com/photos/random?client_id=dBjNaHVaQmFTdRJwjGKGQiJP-ceyTcug1yw3Sdm4Nxg';
   }
 
   @Input()

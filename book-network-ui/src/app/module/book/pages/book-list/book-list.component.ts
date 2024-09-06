@@ -12,7 +12,7 @@ import { PageResponseBookResponse } from '../../../../services/models/page-respo
 export class BookListComponent implements OnInit {
   bookResponse: PageResponseBookResponse = {};
   page: number = 0;
-  size: number = 5;
+  size: number = 15;
 
   constructor(
     private bookService: BookService,
