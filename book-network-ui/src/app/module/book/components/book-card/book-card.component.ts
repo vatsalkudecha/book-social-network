@@ -30,7 +30,9 @@ export class BookCardComponent {
 
   @Input()
   set manage(value: boolean) {
-    this.manage = value;
+    if (this._manage !== value) {
+      this._manage = value;
+    }
   }
 
   get manage() {
