@@ -25,7 +25,7 @@ export class BookCardComponent {
     if (this._book.cover) {
       return 'data:image/jpg;base64,' + this._book.cover;
     }
-    return 'https://api.unsplash.com/photos/random?client_id=dBjNaHVaQmFTdRJwjGKGQiJP-ceyTcug1yw3Sdm4Nxg';
+    return 'https://picsum.photos/seed/picsum/400/400';
   }
 
   @Input()
