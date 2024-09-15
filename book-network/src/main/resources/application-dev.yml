@@ -40,3 +40,6 @@ application:
   file:
     upload:
       photos-output-path: ./uploads
+
+server:
+  port: 8080
