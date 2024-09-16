@@ -75,3 +75,14 @@ Book Social Network is a full-stack application that enables users to manage the
 ## Security Diagram
 
 ![Security Diagram](./screenshots/security.png)
+
+### Basic Docker commands to use:
+
+- docker compose down
+- docker compose up -d
+
+- book-network> ./mvnw clean package -DskipTests
+- book-network> docker build -t bsn/bsn:1.0.3 -f ../docker/backend/Dockerfile .
+- book-network> docker build --build-arg="APP_VERSION=1.0.3" -t bsn/bsn:1.0.3 -f ../docker/backend/Dockerfile .
+
+- book-network-ui> docker build -t bsn/bsn-ui:1.0.0 -f ../docker/frontend/Dockerfile .
