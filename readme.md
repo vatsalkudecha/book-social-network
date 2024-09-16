@@ -10,9 +10,6 @@ Book Social Network is a full-stack application that enables users to manage the
 3. [Learning Objectives](#learning-objectives)
 4. [Class Diagram](#class-diagram)
 5. [Security Diagram](#security-diagram)
-6. [Getting Started](#getting-started)
-    - [Backend Setup Instructions](#backend-setup-instructions)
-    - [Frontend Setup Instructions](#frontend-setup-instructions)
 
 ---
 
@@ -53,22 +50,19 @@ Book Social Network is a full-stack application that enables users to manage the
 
 ## Learning Objectives
 
-By following this project, students will learn:
-
 - Designing a class diagram from business requirements
 - Implementing a mono repo approach
 - Securing an application using JWT tokens with Spring Security
 - Registering users and validating accounts via email
 - Utilizing inheritance with Spring Data JPA
 - Implementing the service layer and handling application exceptions
-- Object validation using JSR-303 and Spring Validation
+- Object validation using Spring Validation
 - Handling custom exceptions
 - Implementing pagination and REST API best practices
 - Using Spring Profiles for environment-specific configurations
 - Documenting APIs using OpenAPI and Swagger UI
 - Implementing business requirements and handling business exceptions
 - Dockerizing the infrastructure
-- CI/CD pipeline & deployment
 
 ---
 
@@ -81,17 +75,3 @@ By following this project, students will learn:
 ## Security Diagram
 
 ![Security Diagram](./screenshots/security.png)
-
----
-
-## Getting Started
-
-To get started with the Book Social Network project, follow the setup instructions in the respective directories:
-
-### [Backend Setup Instructions](backend/README.md)
-
-Refer to the backend `README.md` file for detailed setup instructions.
-
-### [Frontend Setup Instructions](frontend/README.md)
-
-Refer to the frontend `README.md` file for detailed setup instructions.
