@@ -17,7 +17,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8088/api/v1",
+      "url": "https://demo-deployment-latest-edu9.onrender.com/api/v1",
       "description": "Local ENV"
     },
     {

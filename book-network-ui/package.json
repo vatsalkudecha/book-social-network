@@ -23,7 +23,9 @@
     "@fortawesome/fontawesome-free": "^6.6.0",
     "angular-code-input": "^2.0.0",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
     "ng-openapi-gen": "^0.51.0",
+    "ngx-build-plus": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"

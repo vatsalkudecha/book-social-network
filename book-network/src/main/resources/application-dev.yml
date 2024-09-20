@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/book_social_network
-    username: postgres
-    password: admin
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -14,10 +14,10 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   mail:
-    host: ${{secrets.HOST_NAME}}
+    host: ${SPRING_MAIL_HOST}
     port: 465
-    username: ${{secrets.EMAIL_USER_NAME}}
-    password: ${{secrets.EMAIL_PASSWORD}}
+    username: ${SPRING_MAIL_USERNAME}
+    password: ${SPRING_MAIL_PASSWORD}
     properties:
       mail:
         smtp:
@@ -36,7 +36,7 @@ application:
       expiration: 8640000
   mailing:
     frontend:
-      activation-url: http://localhost:4200/activate-account
+      activation-url: ${MAILING_ACTIVATION_URL}
   cors:
     origins: http://localhost:4200,http://localhost:8080
   file:
@@ -45,3 +45,6 @@ application:
 
 server:
   port: 8088
+
+frontend:
+  url: ${FRONTEND_URL}
