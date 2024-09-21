@@ -1,0 +1,41 @@
+.title {
+    font-size: 2rem; /* Increase title size */
+    color: orangered; /* Match color with the theme */
+    font-weight: bold; /* Bold title */
+}
+
+.alert {
+    font-size: 0.9rem; /* Slightly smaller text for alerts */
+}
+
+img {
+    border: 2px solid #ddd; /* Subtle border around the image */
+}
+
+.form-label {
+    font-weight: 500; /* Medium weight for labels */
+}
+
+.form-control {
+    border-radius: 0.5rem; /* Rounded corners for inputs */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+.form-control:focus {
+    border-color: orangered; /* Highlight border color on focus */
+}
+
+.btn {
+    border-radius: 0.5rem; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.btn-outline-primary:hover {
+    background-color: orangered; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.btn-outline-danger:hover {
+    background-color: darkred; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}

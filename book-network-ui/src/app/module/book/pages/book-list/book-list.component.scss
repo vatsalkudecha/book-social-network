@@ -1,0 +1,33 @@
+.title {
+    font-size: 2rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: orangered; /* Matching navbar color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.alert {
+    margin-bottom: 1rem; /* Space below the alert */
+}
+
+.pagination {
+    margin-top: 1rem; /* Space above pagination */
+}
+
+.pagination .page-link {
+    border-radius: 50px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.pagination .page-link:hover {
+    background-color: orangered; /* Hover color */
+    color: #fff; /* Text color on hover */
+}
+
+.pagination .active .page-link {
+    background-color: darkorange; /* Active page background */
+    color: #fff; /* Active page text color */
+}
+
+.page-item.disabled .page-link {
+    color: #ccc; /* Disabled link color */
+}

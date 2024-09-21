@@ -1,0 +1,47 @@
+.container {
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: orangered;
+    font-weight: bold;
+}
+
+.table {
+    border-collapse: collapse; /* Improve spacing between cells */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center align vertically */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Alternate row colors */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef; /* Highlight row on hover */
+}
+
+.pagination {
+    justify-content: center; /* Center the pagination */
+}
+
+.page-link {
+    border-radius: 0.5rem; /* Rounded corners for pagination links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.page-link:hover {
+    background-color: orangered; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: orangered; /* Active page color */
+    color: white; /* Active page text color */
+}
+
+.page-item.disabled .page-link {
+    color: #aaa; /* Disabled link color */
+}

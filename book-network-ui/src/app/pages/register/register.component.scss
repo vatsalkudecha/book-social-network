@@ -1,0 +1,115 @@
+/* Register Component Styles */
+.register-container {
+    width: 40rem;/* Limit the width */
+    margin: auto; /* Center the card */
+    padding: 20px; /* Padding inside the card */
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    animation: fadeIn 0.5s ease; /* Animation for entrance */
+    background: linear-gradient(135deg, #f9f9f9, #e1e1e1);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.register-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Headings */
+h3 {
+    font-family: 'Arial', sans-serif; /* Modern font */
+    color: #333; /* Darker text color */
+}
+
+/* Alerts */
+.alert {
+    margin-bottom: 20px; /* Space below alerts */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Form Inputs */
+.form-control {
+    border: 1px solid #ced4da; /* Standard border */
+    border-radius: 5px; /* Rounded edges */
+    transition: border-color 0.3s; /* Transition for focus */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 15px; /* Uniform padding */
+    border-radius: 5px; /* Rounded edges */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover */
+}
+
+.btn-outline-primary {
+    color: #007bff; /* Primary color */
+    border: 1px solid #007bff; /* Outline color */
+    background-color: transparent; /* No background */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.btn-link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.btn-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .register-container {
+        padding: 15px; /* Less padding on small screens */
+    }
+
+    .form-control {
+        font-size: 14px; /* Smaller font for inputs */
+    }
+
+    .btn {
+        font-size: 14px; /* Smaller button text */
+    }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px); /* Slide from above */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Original position */
+    }
+}
+
+.animated-button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #457b9d;
+    color: white;
+    transform: translateY(-2px);
+}

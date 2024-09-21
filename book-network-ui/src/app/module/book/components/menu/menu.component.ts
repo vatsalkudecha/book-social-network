@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     const linkColor = document.querySelectorAll('.nav-link');
@@ -21,7 +23,10 @@ export class MenuComponent implements OnInit {
   }
 
   logout() {
-    localStorage.removeItem('token')
-    window.location.reload();
+    // Remove the token from local storage or handle other logout logic
+    localStorage.removeItem('token');
+
+    // Navigate to login page without reloading
+    this.router.navigate(['']);
   }
 }

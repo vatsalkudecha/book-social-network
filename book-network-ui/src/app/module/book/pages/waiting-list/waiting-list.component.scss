@@ -1,14 +1,20 @@
+.waiting-list-container {
+  height: 100vh; /* Full height */
+  background-color: #f8f9fa; /* Light background */
+}
+
+.waiting-card {
+  background-color: white; /* Card background */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
 .waiting-message {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
-  margin-top: 1rem;
+  font-size: 1.5rem; /* Larger text */
+  color: #333; /* Dark text */
 }
 
 .progress-details {
-  color: #666;
-}
-
-button {
-  cursor: pointer;
+  color: #6c757d; /* Muted text */
 }

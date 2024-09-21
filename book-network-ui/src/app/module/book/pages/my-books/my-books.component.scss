@@ -1,0 +1,39 @@
+.container {
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: orangered;
+    font-weight: bold;
+}
+
+.pagination {
+    justify-content: center; /* Center the pagination */
+}
+
+.page-link {
+    border-radius: 0.5rem; /* Rounded corners for pagination links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.page-link:hover {
+    background-color: orangered; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: orangered; /* Active page color */
+    color: white; /* Active page text color */
+}
+
+.page-item.disabled .page-link {
+    color: #aaa; /* Disabled link color */
+}
+
+.app-book-card {
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.app-book-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
