@@ -23,10 +23,16 @@ export class MenuComponent implements OnInit {
   }
 
   logout() {
-    // Remove the token from local storage or handle other logout logic
+    // Ensure localStorage token is removed before any further action
     localStorage.removeItem('token');
+    
+    // Optionally, you can clear more user-specific data from localStorage or app state here
+    // For example: localStorage.removeItem('userInfo');
 
-    // Navigate to login page without reloading
-    this.router.navigate(['']);
+    // Immediately navigate to the login page and prevent any unwanted navigation
+    this.router.navigate(['']).then(() => {
+        // Reload the application after navigation to ensure all states are reset
+        window.location.reload();
+    });
   }
 }

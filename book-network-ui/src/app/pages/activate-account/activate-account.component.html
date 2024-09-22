@@ -14,14 +14,15 @@
 </div>
 
 <ng-template #codeForm>
-    <div class="container">
-        <div class="text-center" style="width: 400px;">
+    <div class="container text-center">
+        <div style="width: 400px; margin: auto;">
             <h2>Type your activation code</h2>
+            <p class="text-muted">Enter the OTP (One Time Password) sent to your registered email</p>
             <code-input [isCodeHidden]="false"
                         [codeLength]="6"
                         [code]="'number'"
-                        (codeCompleted)="onCodeCompleted($event)"
-            ></code-input>
+                        (codeCompleted)="onCodeCompleted($event)">
+            </code-input>
         </div>
     </div>
 </ng-template>
